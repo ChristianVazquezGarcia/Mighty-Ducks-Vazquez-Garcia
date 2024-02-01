@@ -6,36 +6,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Information about hockey team">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./assets/styles/main.css">
+    <!--<link rel="stylesheet" href="./assets/styles/own_design.css">-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+
     <title>About MDHL</title>
 </head>
 
 <body>
-    <header>
-        <img src="./assets/images/LogoMightyducks-01.png" alt="Team logo" >
+<div class="layout">
+    <header class="header">
         <h1>Might Ducks Hockey League</h1>
-        <nav>
-            <a href="./index.html">Home</a>
-            <a href="./about.html">About MDHL</a>
-            <a href="./contact.html">Contact</a>
+        <img class="img__banner" src="./assets/images/design1_image1.jpg" alt="Two hockey players">
+        <nav class="nav__header">
+            <a class="a__nav__header" href="./index.html">Home</a>
+            <a class="a__nav__header nav__about" href="#about">About MDHL</a>
+            <a class="a__nav__header" href="./contact.html">Contact</a>
         </nav>
     </header>
 
     <main>
-        <img src="./assets/images/hockey2.jpg" alt="Hockey player">
-        <article>
-            <h2>Mision</h2>
-                <p>
+        <h2>About</h2>
+        <div class="img__contenedor">
+            <img class="img__logo" src="./assets/images/LogoMightyducks-01.png" alt="Team logo" >
+            <img class="img__picture2"  src="./assets/images/hockey2.jpg" alt="Hockey player">
+        </div>
+        <div id="about" class="contenedor__articulos articulos__about">
+        <article class="article__about">
+            <h3>Mision</h3>
+                <p class="parrafos__about parrafos">
                     To support young athletes living Chicago's northside neighborhood, who have an interest in
                     learning and playing soccer, with opportunities to learn and practice skills related to the game of
                     hockey, specifically those skills around team cooperation and good sportsmanship
                 </p>
-            <h2>Vision</h2>
-                <p>
+        </article>        
+        <article class="article__about">    
+            <h3>Vision</h3>
+                <p class="parrafos__about parrafos">
                     The Mighty Ducks Hockey League aspires to develop strong, well-rounded and mindful athletes
                     through the building of character, self-discipline, and leadership.
                 </p>
-            <h2>General Information</h2>
-                <p>
+        </article>
+        <article class="article__about">        
+            <h3>General Information</h3>
+                <p class="parrafos__about parrafos">
                     The Mighty Ducks Soccer League was established in 1996 to provide athletes residing
                     Chicago's northside neighborhoods an environment in which to learn and play hockey. To be a member of
                     MDHL,
@@ -46,8 +64,9 @@
 
                 </p>
         </article>
+        </div>
     </main>
-
+</div>
 </body>
 
 </html>

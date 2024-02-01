@@ -5,39 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Information about hockey team">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="./assets/styles/main.css">
+    <!--<link rel="stylesheet" href="./assets/styles/own_design.css">-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+
     <title>Home</title>
 </head>
 <body>
-    <header>
-        <img src="./assets/images/LogoMightyducks-01.png" alt="Team logo" >
+    <div class="layout">
+    <header class="header">
         <h1>Might Ducks Hockey League</h1>
-        <nav>
-            <a href="#Home">Home</a>
-            <a href="./about.html">About MDHL</a>
-            <a href="./contact.html">Contact</a>
+        <img class="img__banner" src="./assets/images/design1_image1.jpg" alt="Two hockey players">
+        <nav class="nav__header">
+            <a class="a__nav__header nav__home" href="#Home">Home</a>
+            <a class="a__nav__header" href="./about.html">About MDHL</a>
+            <a class="a__nav__header" href="./contact.html">Contact</a>
         </nav>
     </header>
-   <main>
-       <img src="./assets/images/hockey1.jpg" alt="Hockey player">
-       <section id="Home">
-            <h2>Upcoming Events</h2>
-                <article>
+
+    <main>
+        <section id="Home" class="section__home">
+            <h2>Upcoming Events</h2> 
+            <div class="img__contenedor">
+                <img class="img__logo" src="./assets/images/LogoMightyducks-01.png" alt="Team logo" >
+                <img class="img__picture1"src="./assets/images/hockey1.jpg" alt="Hockey player">
+            </div>    
+            <div class="contenedor__articulos articulos__home">
+                <article class="article__home">
                     <h3>August 4</h3>
-                    <p>MDSL Fundraiser</p>
+                    <p class="parrafos">MDSL Fundraiser</p>
                 </article>
-                <article>
+                <article class="article__home">
                     <h3>August 16</h3>
-                    <p>Season Kick-off: Meet the teams</p>
+                    <p class="parrafos">Season Kick-off: Meet the teams</p>
                 </article>
-                <article>
+                <article class="article__home">
                     <h3>September 1</h3>
-                    <p>First Game of the season</p>
+                    <p class="parrafos">First Game of the season</p>
                 </article>
+            </div>
     </section>
    </main> 
    
 
     
-
+</div>
 </body>
 </html>

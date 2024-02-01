@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.layout{
+    padding-left: 10%;
+    padding-right: 10%;
+    
+}
+
+h1{
+    font-size: 70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav__header{
+    
+    position: absolute;
+    left: 80%;
+    bottom: 75%;
+   
+}
+
+.header{
+    position: relative;
+}
+
+.a__nav__header{
+    background-color: #0B486B;
+    display: inline-block;
+    padding: 13px;
+    margin: 5px;
+    color: #79BD9A;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.nav__contact, .nav__home, .nav__about{
+    background-color: #CFF09E;
+}
+
+h2{
+    text-align: center;
+    color: black;
+    border: 3px solid;
+    border-color:black ;
+    font-size: 50px;
+    font-family: "Open Sans", sans-serif;
+}
+
+h3{
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.img__banner{
+    object-fit: cover;
+    object-position: 0% 25%;
+    display: inline-block;
+    height: 350px;
+    width: 100%;
+}
+
+.img__logo,.img__picture1,.img__picture2,.img__picture3{
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    display: block;
+}
+
+.img__contenedor{
+    display: inline-block;
+}
+
+.contenedor__articulos{
+    display: inline-block;
+    width: 60vw;
+    height: 400px;
+    position: relative;
+}
+
+.articulos__home{
+    bottom: 140px;
+    left: 100px;
+}
+
+.articulos__about{
+    top: 60px;
+    left: 90px;
+}
+
+.contenedor__parrafos__contact{
+    display: inline-block;
+    position: relative;
+    left: 120px;
+    bottom: 450px;
+}
+
+.article__home{
+    margin: 40px;
+    font-size: 2rem;
+    font-family: "Arimo", sans-serif
+}
+
+.article__about{
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-family: "Arimo", sans-serif
+}
+
+.parrafos{
+    text-indent: 40px;
+    font-size: 2rem;
+    font-family: "Arimo", sans-serif
+}
+
