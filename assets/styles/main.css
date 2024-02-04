@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -7,9 +7,9 @@
 .layout{
     
     background: #22346c;
-background: linear-gradient(89deg,#22346c 0%, #2b51a4 80%);
-background: -webkit-linear-gradient(89deg,#22346c 0%, #2b51a4 80%);
-background: -moz-linear-gradient(89deg,#22346c 0%, #2b51a4 80%);
+    background: linear-gradient(89deg,#22346c 0%, #2b51a4 80%);
+    background: -webkit-linear-gradient(89deg,#22346c 0%, #2b51a4 80%);
+    background: -moz-linear-gradient(89deg,#22346c 0%, #2b51a4 80%);
     min-height: 100vh;
 }
 
@@ -19,7 +19,6 @@ h1{
     align-self: flex-start;
     position: absolute;
     color:rgb(12,173,215);
-    color: linear-gradient(90deg, rgba(12,173,215,1) 0%, rgba(43,81,164,1) 58%, rgba(43,81,164,1) 100%);
     top: 78%;
 }
 
@@ -39,21 +38,30 @@ h1{
     order: 2;
 
    
+    
+    gap:10px;
 }
 
 
 .a__nav__header{
-    background-color: #0B486B;
-    display: inline-block;
+    background-color: #2b51a4;
+    /*display: inline-block;
+    margin: 5px;*/
+    
+    
     padding: 13px;
-    margin: 5px;
-    color: #79BD9A;
+    color: #e2f4f8;
     font-size: 18px;
     text-decoration: none;
+    border-radius: 10px;
+}
+
+.a__nav__header:hover{
+    transform: scale(.89);
 }
 
 .nav__contact, .nav__home, .nav__about{
-    background-color: #CFF09E;
+    background-color: #0cadd7;
 }
 
 .section__home{
@@ -159,4 +167,8 @@ h3{
     
     align-self: center;
     /*justify-content: center;*/
+}
+
+.email__style{
+    color: #75cede;
 }
