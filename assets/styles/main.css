@@ -6,10 +6,10 @@
 
 .layout{
     
-    background: #75cede;
-    background: linear-gradient(270deg,#75cede 0%, #2b51a4 80%);
-    background: -webkit-linear-gradient(270deg,#75cede 0%, #2b51a4 80%);
-    background: -moz-linear-gradient(270deg,#75cede 0%, #2b51a4 80%);
+    background: #22346c;
+background: linear-gradient(89deg,#22346c 0%, #2b51a4 80%);
+background: -webkit-linear-gradient(89deg,#22346c 0%, #2b51a4 80%);
+background: -moz-linear-gradient(89deg,#22346c 0%, #2b51a4 80%);
     min-height: 100vh;
 }
 
@@ -18,6 +18,8 @@ h1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     align-self: flex-start;
     position: absolute;
+    color:rgb(12,173,215);
+    color: linear-gradient(90deg, rgba(12,173,215,1) 0%, rgba(43,81,164,1) 58%, rgba(43,81,164,1) 100%);
     top: 78%;
 }
 
