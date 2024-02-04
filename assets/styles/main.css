@@ -5,27 +5,40 @@
 }
 
 .layout{
-    padding-left: 10%;
-    padding-right: 10%;
     
+    background: #75cede;
+    background: linear-gradient(270deg,#75cede 0%, #2b51a4 80%);
+    background: -webkit-linear-gradient(270deg,#75cede 0%, #2b51a4 80%);
+    background: -moz-linear-gradient(270deg,#75cede 0%, #2b51a4 80%);
+    min-height: 100vh;
 }
 
 h1{
     font-size: 70px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-self: flex-start;
+    position: absolute;
+    top: 78%;
+}
+
+.header{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    position: relative;
 }
 
 .nav__header{
     
+    display: flex;
+    flex-direction:row ;
     position: absolute;
-    left: 80%;
-    bottom: 75%;
+    align-self: flex-end;
+    order: 2;
+
    
 }
 
-.header{
-    position: relative;
-}
 
 .a__nav__header{
     background-color: #0B486B;
@@ -41,6 +54,12 @@ h1{
     background-color: #CFF09E;
 }
 
+.section__home{
+    display:flex ;
+    flex-direction: column;
+    gap: 20px;
+}
+
 h2{
     text-align: center;
     color: black;
@@ -48,6 +67,16 @@ h2{
     border-color:black ;
     font-size: 50px;
     font-family: "Open Sans", sans-serif;
+    position: relative;
+    align-self: center;
+    justify-self: center;
+    min-width: 100vw;
+}
+
+.contenedor__articulos__img__home{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
 }
 
 h3{
@@ -59,7 +88,7 @@ h3{
 .img__banner{
     object-fit: cover;
     object-position: 0% 25%;
-    display: inline-block;
+    display: flex;
     height: 350px;
     width: 100%;
 }
@@ -72,32 +101,26 @@ h3{
 }
 
 .img__contenedor{
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
 }
 
 .contenedor__articulos{
-    display: inline-block;
-    width: 60vw;
-    height: 400px;
-    position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 .articulos__home{
-    bottom: 140px;
-    left: 100px;
+    display: flex;
+    gap: 20px;
 }
 
 .articulos__about{
-    top: 60px;
-    left: 90px;
+    max-width: 70vw;
+    align-self: flex-end;
 }
 
-.contenedor__parrafos__contact{
-    display: inline-block;
-    position: relative;
-    left: 120px;
-    bottom: 450px;
-}
 
 .article__home{
     margin: 40px;
@@ -117,3 +140,21 @@ h3{
     font-family: "Arimo", sans-serif
 }
 
+.contenedor__about{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    
+}
+
+.contenedor__contacto{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.contenedor__parrafos__contact{
+    
+    align-self: center;
+    /*justify-content: center;*/
+}
