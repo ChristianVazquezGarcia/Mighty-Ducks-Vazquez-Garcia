@@ -35,11 +35,10 @@ h1{
     flex-direction:row ;
     position: absolute;
     align-self: flex-end;
-    order: 2;
-
-   
-    
+    /*order: 2;*/
+    justify-self: flex-end;
     gap:10px;
+    top: 5%;
 }
 
 
@@ -60,7 +59,7 @@ h1{
     transform: scale(.89);
 }
 
-.nav__contact, .nav__home, .nav__about{
+.nav__contact, .nav__home, .nav__about, .nav__rules{
     background-color: #0cadd7;
 }
 
@@ -171,4 +170,108 @@ h3{
 
 .email__style{
     color: #75cede;
+}
+
+
+/*Listas*/
+
+
+.resaltar{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    list-style-position: initial;
+}
+
+.sub__h3__rules{
+    text-align: center;
+    font-size: 35px;
+}
+
+.contenedor__lista{
+    padding: 100px 300px ;
+    font-size: 40px;
+}
+
+dt{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 50px 0;
+}
+.dd__style{
+    text-indent: 40px;
+}
+
+.dd__style>ul {
+    /*text-indent: none;*/
+    list-style-position: inside;
+    width: 90%;
+    padding-left:10% ;
+    list-style: circle;
+    
+
+}
+
+.ol__contenedor>li{
+    
+    list-style-position: inside;
+}
+.ol__contenedor>li>ol{
+    list-style-type: lower-latin;
+    
+}
+
+.contenedor__general__ol>li{
+    padding-bottom: 40px;
+}
+
+.sub__regulations{
+    font-size: 40px ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-bottom: 50px;
+}
+
+.dl__style{
+    padding-bottom: 40px;
+}
+
+/*.contenedor__lista*/
+
+
+.main__game{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor__general__gameInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 80%;
+
+}
+
+table{
+    width: 100%;
+    table-layout: fixed;
+    background-color: #22346c;
+    border-collapse: collapse;
+    color: wheat;
+    /*margin: 0 auto;*/
+}
+
+thead, tbody{
+
+    text-align: left;
+    
+}
+
+
+th, tr, td{
+    height: 40px;
+    padding-right: 20px;
+}
+
+.contenedor__info__game, .contendor__info__game__footer{
+    justify-content: center;
+    align-items: center;
 }
