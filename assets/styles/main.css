@@ -59,7 +59,7 @@ h1{
     transform: scale(.89);
 }
 
-.nav__contact, .nav__home, .nav__about, .nav__rules{
+.nav__contact, .nav__home, .nav__about, .nav__rules, .nav__game{
     background-color: #0cadd7;
 }
 
@@ -246,17 +246,21 @@ dt{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 80%;
+    width: 60%;
 
+}
+
+caption{
+    text-align: left;
 }
 
 table{
     width: 100%;
     table-layout: fixed;
-    background-color: #22346c;
+    background-color: #234896;
     border-collapse: collapse;
-    color: wheat;
-    /*margin: 0 auto;*/
+    color: #75adb6
+   
 }
 
 thead, tbody{
@@ -274,4 +278,73 @@ th, tr, td{
 .contenedor__info__game, .contendor__info__game__footer{
     justify-content: center;
     align-items: center;
+}
+
+/*.col1{
+    
+    display: flex ;
+    flex-direction: column;
+    align-self:center ;
+    
+}*/
+
+.h3__gameInfo__1{
+  padding-bottom: 20px;
+}
+
+.contenedor__gameinfo__general{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor__h3__gaminfo__info1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    
+}
+
+.contenedor__info__game p{
+    align-self: center;
+}
+.contenedor__info__game{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.contenedor__h3__gaminfo__info2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.contenedor__h3__gaminfo__info3{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    padding-top: 50px;
+}
+
+.contenedor__info__game__footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom:50px ;
+}
+
+.contenedor__h3__gaminfo__footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: flex-start;
+}
+.contenedor__info__game__footer a{
+    align-self: center;
+
 }

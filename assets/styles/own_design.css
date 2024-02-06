@@ -65,7 +65,7 @@ h1{
     object-fit: cover;
 }
 
-.img__picture1, .img__picture2,.img__picture3{
+.img__picture1 , .img__picture2 ,.img__picture3{
     object-fit: cover;
     width: 300px;
     height: 300px;
