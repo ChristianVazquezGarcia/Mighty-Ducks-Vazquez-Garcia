@@ -1,0 +1,150 @@
+.main__game{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor__general__gameInfo{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+
+.contenedor__general__tabla{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 20px;
+
+}
+
+caption{
+    text-align: left;
+    color: #000000;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    color: #75adb6;
+    align-items: center; 
+    justify-content: flex-end;
+    box-shadow: 1px -3px 45px 3px rgba(60,183,191,0.75);
+    -webkit-box-shadow: 1px -3px 45px 3px rgba(60,183,191,0.75);
+    -moz-box-shadow: 1px -3px 45px 3px rgba(60,183,191,0.75);
+}
+
+thead, tbody{
+    text-align: left;
+}
+.col1{
+    text-align: left;
+}
+
+
+th, tr, td{
+    height: 40px;
+    padding-right: 20px;
+}
+
+.contenedor__info__game, .contendor__info__game__footer{
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor__h3__gaminfo__info1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    padding-top: 25px;
+    
+}
+
+.contenedor__info__game p{
+    align-self: center;
+}
+
+.contenedor__gameinfo__general{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    gap: 45px;
+}
+
+.contenedor__info__game{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contenedor__info__game__footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+}
+.contenedor__h3__gaminfo__footer__general{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contenedor__h3__gaminfo__info2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.contenedor__h3__gaminfo__info3{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+
+}
+
+
+.contenedor__h3__gaminfo__footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: flex-start;
+}
+
+.contenedor__info__game__footer a{
+    align-self: center;
+
+}
+
+.contenedor__mapa{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    padding-bottom: 15px;
+}
+
+.contenedor__mapa .location iframe{
+    width: 150px;
+    height: 150px;
+}
+
+.location h6{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.location__5,.location__6{
+    width: 150px;
+}

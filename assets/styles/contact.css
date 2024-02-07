@@ -1,0 +1,10 @@
+.contenedor__contacto{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.contenedor__parrafos__contact{
+    align-self: center;
+}
+

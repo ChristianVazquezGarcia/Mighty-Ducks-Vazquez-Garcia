@@ -1,0 +1,27 @@
+.articulos__about{
+    max-width: 60%;
+    gap: 50px;
+    align-self: flex-end;
+}
+
+.article__about{
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-family: "Arimo", sans-serif
+}
+
+.article__about:hover{
+    transform: scale(1.1);
+    transition: all 1.5s ease-in-out;
+    background-color: #22346c;
+    z-index: 3;
+    color: #0cadd7;
+}
+
+.contenedor__about{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    padding-top: 50px;
+    
+}

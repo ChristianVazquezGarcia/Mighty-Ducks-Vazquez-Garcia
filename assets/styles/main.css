@@ -18,9 +18,12 @@ h1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     align-self: flex-start;
     position: absolute;
-    color:rgb(12,173,215);
-    top: 78%;
+    color: #000000;
+    text-shadow: 9px 4px 2px rgba(117,206,222,0.95);
+    width: 40%;
+    
 }
+
 
 .header{
     display: flex;
@@ -32,25 +35,26 @@ h1{
 .nav__header{
     
     display: flex;
-    flex-direction:row ;
-    position: absolute;
+    flex-direction:column;
+    position: fixed;
     align-self: flex-end;
-    /*order: 2;*/
     justify-self: flex-end;
     gap:10px;
-    top: 5%;
+    top: 2%;
+    z-index: 2;
+    padding-right: 20px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
 }
 
 
 .a__nav__header{
     background-color: #2b51a4;
-    /*display: inline-block;
-    margin: 5px;*/
-    
-    
-    padding: 13px;
+    padding: 5px;
     color: #e2f4f8;
-    font-size: 18px;
+    font-size: 15px;
+    width: 80px;
     text-decoration: none;
     border-radius: 10px;
 }
@@ -74,12 +78,13 @@ h2{
     color: black;
     border: 3px solid;
     border-color:black ;
-    font-size: 50px;
+    font-size: 40px;
     font-family: "Open Sans", sans-serif;
     position: relative;
     align-self: center;
     justify-self: center;
-    min-width: 100vw;
+    width: 100%;
+    
 }
 
 .contenedor__articulos__img__home{
@@ -90,30 +95,32 @@ h2{
 
 h3{
   font-family: "Poppins", sans-serif;
-  font-weight: 800;
+  font-weight: 500;
   font-style: normal;
 }
 
 .img__banner{
     object-fit: cover;
-    object-position: 0% 25%;
+    object-position: 10% 25% ;
     display: flex;
-    height: 350px;
+    height: 260px;
     width: 100%;
 }
 
 .img__logo,.img__picture1,.img__picture2,.img__picture3{
     object-fit: cover;
-    width: 300px;
-    height: 300px;
+    width: 180px;
     display: block;
+    border-radius: 15px;
 }
+
 
 .img__contenedor{
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 30px;
 }
+
 
 .contenedor__articulos{
     display: flex;
@@ -122,230 +129,27 @@ h3{
 
 .articulos__home{
     display: flex;
-    gap: 20px;
+    flex-direction: column;
+    gap: 50px;
 }
-
-.articulos__about{
-    max-width: 70vw;
-    align-self: flex-end;
+.article__home h3{
+    font-size: 37px;
 }
 
 
 .article__home{
-    margin: 40px;
-    font-size: 2rem;
-    font-family: "Arimo", sans-serif
-}
-
-.article__about{
-    margin-bottom: 20px;
-    font-size: 2rem;
+    font-size: 35px;
     font-family: "Arimo", sans-serif
 }
 
 .parrafos{
     text-indent: 40px;
-    font-size: 2rem;
-    font-family: "Arimo", sans-serif
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.contenedor__about{
-    display: flex;
-    flex-direction: row;
-    gap: 100px;
-    
-}
-
-.contenedor__contacto{
-    display: flex;
-    flex-direction: row;
-    gap: 100px;
-}
-
-.contenedor__parrafos__contact{
-    
-    align-self: center;
-    /*justify-content: center;*/
-}
 
 .email__style{
-    color: #75cede;
+    color: rgb(117, 206, 222);
 }
 
-
-/*Listas*/
-
-
-.resaltar{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    list-style-position: initial;
-}
-
-.sub__h3__rules{
-    text-align: center;
-    font-size: 35px;
-}
-
-.contenedor__lista{
-    padding: 100px 300px ;
-    font-size: 40px;
-}
-
-dt{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    padding: 50px 0;
-}
-.dd__style{
-    text-indent: 40px;
-}
-
-.dd__style>ul {
-    /*text-indent: none;*/
-    list-style-position: inside;
-    width: 90%;
-    padding-left:10% ;
-    list-style: circle;
-    
-
-}
-
-.ol__contenedor>li{
-    
-    list-style-position: inside;
-}
-.ol__contenedor>li>ol{
-    list-style-type: lower-latin;
-    
-}
-
-.contenedor__general__ol>li{
-    padding-bottom: 40px;
-}
-
-.sub__regulations{
-    font-size: 40px ;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    padding-bottom: 50px;
-}
-
-.dl__style{
-    padding-bottom: 40px;
-}
-
-/*.contenedor__lista*/
-
-
-.main__game{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.contenedor__general__gameInfo{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 60%;
-
-}
-
-caption{
-    text-align: left;
-}
-
-table{
-    width: 100%;
-    table-layout: fixed;
-    background-color: #234896;
-    border-collapse: collapse;
-    color: #75adb6
-   
-}
-
-thead, tbody{
-
-    text-align: left;
-    
-}
-
-
-th, tr, td{
-    height: 40px;
-    padding-right: 20px;
-}
-
-.contenedor__info__game, .contendor__info__game__footer{
-    justify-content: center;
-    align-items: center;
-}
-
-/*.col1{
-    
-    display: flex ;
-    flex-direction: column;
-    align-self:center ;
-    
-}*/
-
-.h3__gameInfo__1{
-  padding-bottom: 20px;
-}
-
-.contenedor__gameinfo__general{
-    display: flex;
-    flex-direction: column;
-    font-size: 20px;
-}
-
-.contenedor__h3__gaminfo__info1{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    gap: 5px;
-    
-}
-
-.contenedor__info__game p{
-    align-self: center;
-}
-.contenedor__info__game{
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-}
-
-.contenedor__h3__gaminfo__info2{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    gap: 5px;
-}
-
-.contenedor__h3__gaminfo__info3{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    gap: 5px;
-    padding-top: 50px;
-}
-
-.contenedor__info__game__footer{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-bottom:50px ;
-}
-
-.contenedor__h3__gaminfo__footer{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    gap: 5px;
-    justify-content: flex-start;
-}
-.contenedor__info__game__footer a{
-    align-self: center;
-
-}
