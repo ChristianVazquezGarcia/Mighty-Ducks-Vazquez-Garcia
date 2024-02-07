@@ -1,0 +1,103 @@
+.layout__registration{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+.container__form{
+    width: 50%;
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-height: 900px;
+    justify-content: flex-start;
+}
+
+.contenedor__principal{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    gap: 30px;
+    
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.registration__names,.registration__city__code
+,.registration__birth__gender
+,.grade__container,.closest__school__container,
+.position__play__container 
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.label__street {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.signature__cotainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding-top: 15px;
+}
+
+.uniform__container{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-style: none;
+}
+.closest__school__container{
+    width: 300px;
+    height: 80px;
+    border-style: none;
+}
+.closest__div__h5{
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.closest__school__1,.closest__school__2,.position__play__1,.position__play__2,.uniform__1,.uniform__2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.position__play__container{
+    width: 300px;
+    display: flex;
+    flex-direction:  row;
+}
+
+button{
+    align-self: center;
+    width: 80%;
+    padding: 20px 0;
+    border-radius: 15px;
+    background-color: aqua;
+}
+

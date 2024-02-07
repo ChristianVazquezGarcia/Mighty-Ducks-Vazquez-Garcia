@@ -59,7 +59,7 @@ h1{
     transform: scale(.89);
 }
 
-.nav__contact, .nav__home, .nav__about, .nav__rules, .nav__game{
+.nav__contact, .nav__home, .nav__about, .nav__rules, .nav__game, .nav__registration{
     background-color: #0cadd7;
 }
 
@@ -295,6 +295,7 @@ th, tr, td{
 .contenedor__gameinfo__general{
     display: flex;
     flex-direction: column;
+    font-size: 20px;
 }
 
 .contenedor__h3__gaminfo__info1{
